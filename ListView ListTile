@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Program ListView'),
+        ),
+        body: new ListView(children: [
+          ListTile(
+            leading: Icon(Icons.location_city, size: 60.00, color: Colors.blue),
+            title: Text("Pilihan 1"),
+            subtitle: Text("Isi 1"),
+          ),
+          ListTile(
+            leading: Icon(Icons.location_city, size: 60.00, color: Colors.blue),
+            title: Text("Pilihan 2"),
+            subtitle: Text("Isi 2"),
+          ),
+        ]),
+      ),
+    );
+  }
+}
