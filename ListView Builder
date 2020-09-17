@@ -1,3 +1,6 @@
+dalam hal ini proses pembuatan listview menggunkan sumber data yang berasal dari array berikut perintah Lengkapnya:
+
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
